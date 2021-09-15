@@ -21,7 +21,7 @@ public class MyMain {
     // new String where all of the numbers have been removed
     // from the original String.
     public static String removeNumbers(String str) {
-        return str.replaceAll("[1-9]","");
+        return str.replaceAll("[0-9]","");
     }
 
     // Write some code to test your methods!
